@@ -1,0 +1,8 @@
+fcvt.f32.f16.lo
+fcvt.f32.f16.hi
+fcvt.f16.f32.lo
+fcvt.f16.f32.hi
+fcvt.f16.f32.lo.m
+fcvt.f16.f32.hi.m
+pkcvt.f16.f32
+pkcvt.f16.f32.m

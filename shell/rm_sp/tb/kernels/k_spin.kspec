@@ -1,0 +1,11 @@
+# k_spin: long loop, rtl/shell/rm_sp/tb/kernels
+code k_spin.bin
+vregs 8
+wg 32
+grid 1
+buf A 4096 rand:31 ro
+buf OUT 4096 zero rw
+ureg 10 A.lo
+ureg 11 A.hi
+ureg 14 OUT.lo
+ureg 15 OUT.hi

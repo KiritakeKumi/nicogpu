@@ -1,0 +1,11 @@
+# k_atom: uc atomics (one warp), rtl/shell/rm_sp/tb/kernels
+code k_atom.bin
+vregs 16
+wg 32
+grid 1
+buf CNT 4096 zero rw
+buf OUT 4096 const:0x11111111 rw
+ureg 12 CNT.lo
+ureg 13 CNT.hi
+ureg 14 OUT.lo
+ureg 15 OUT.hi
